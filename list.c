@@ -45,22 +45,21 @@ void * firstList(List * list) {
 }
 
 void * nextList(List * list) {
-
+  return NULL;
 }
 
 void * lastList(List * list) {
-
+  return NULL;
 }
 
 void * prevList(List * list) {
-
+  return NULL;
 }
 
 void pushFront(List * list, void * data) {
-
 }
 
-void pushBack(List * list, void * data) {
+
 }
 
 void pushCurrent(List * list, void * data) {

@@ -118,3 +118,12 @@ list.c:57:1: error: control reaches end of non-void function [-Werror=return-typ
 cc1: all warnings being treated as errors
 Compilation failed
 79e7870
+Sat 30 Mar 2024 05:18:07 PM UTC: 
+ list.c | 9 ++++-----
+ 1 file changed, 4 insertions(+), 5 deletions(-)
+In file included from test.c:5:
+list.c:63:1: error: expected identifier or ‘(’ before ‘}’ token
+   63 | }
+      | ^
+Compilation failed
+70f0997
